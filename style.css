@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #57A6A1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.header .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.header .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    flex: 1;
+    margin: 0 10px;
+    max-width: 700px;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search .icon {
+    width: 35px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login, .cart, .acc {
+    flex-shrink: 0;
+}
+
+.login button, .cart button {
+    background-color: #0E46A3;
+    border: 1px solid #0E46A3;
+    color: white;
+    padding: 5px 10px;
+}
+
+.cart button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart button i {
+    padding-right: 5px;
+}
+
+.acc {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc i {
+    color: black;
+    font-size: 20px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid rgb(134, 131, 131);
+    padding: 10px;
+}
+
+.content .pic {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.content .pro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pro1 .img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #57A6A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro1 .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro .tv {
+    width: 100%;
+    height: auto;
+    border: 1px solid #57A6A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    transition: 1s linear;
+}
+
+.tv img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.des {
+    width: 100%;
+    padding: 20px;
+}
+
+.p1 {
+    font-size: large;
+    line-height: 30px;
+}
+
+.rating {
+    display: flex;
+    font-size: x-large;
+    align-items: baseline;
+    padding-top: 20px;
+}
+
+.rating i {
+    color: green;
+}
+
+.rating p {
+    margin-left: 10px;
+    font-size: 14px;
+    display: flex;
+}
+
+.p2 {
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.p2 .s1 {
+    color: green;
+}
+
+.p2 .s2 {
+    text-decoration: line-through;
+}
+
+.a1 {
+    font-size: large;
+    padding-top: 20px;
+}
+
+.a i {
+    padding-right: 10px;
+    color: green;
+}
+
+.a {
+    line-height: 40px;
+}
+
+.a span {
+    color: rgb(37, 87, 194);
+}
+
+.a2 {
+    color: rgb(37, 87, 194);
+}
+
+.exchange {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.ex {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.ex p {
+    margin-left: 10px;
+}
+
+.p3 {
+    padding-top: 10px;
+}
+
+.p4 {
+    font-size: large;
+    padding-top: 10px;
+}
+
+.p5 {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+
+.p5 input {
+    margin-left: 15px;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.submit .b {
+    width: 100%;
+    padding: 5px;
+}
+
+.submit .b button {
+    width: 100%;
+    padding: 10px;
+}
+
+.submit .b1 button {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+
+.submit .b2 button {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.submit .b button i {
+    padding-right: 10px;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.f1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.f2 {
+    display: flex;
+    justify-content: center;
+}
+
+.message-box {
+    width: 300px;
+    height: 150px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-content: center;
+    z-index: 1000;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 80px;
+        padding: 10px 50px;
+    }
+
+    .content {
+        flex-direction: row;
+    }
+
+    .content .pic {
+        width: 47%;
+    }
+
+    .des {
+        width: 53%;
+    }
+
+    .search {
+        margin: 0;
+    }
+
+    .search input {
+        width: 700px;
+    }
+
+    .exchange {
+        width: 100%;
+    }
+
+    .exchange .ex {
+        width: 200px;
+    }
+
+    .exchange .ex span {
+        padding-left: 180px;
+    }
+
+    .exchange .ex.one span {
+        padding-left: 140px;
+    }
+
+    .submit .b {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 10px;
+    }
+
+    .search {
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .login button, .cart button {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content .pic,
+    .des {
+        width: 100%;
+    }
+
+    .des {
+        padding: 10px;
+    }
+
+    .exchange .ex {
+        width: 100%;
+    }
+
+    .submit .b {
+        width: 100%;
+    }
+}
